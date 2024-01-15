@@ -74,9 +74,10 @@ li:hover{
 }
 
 h2 {
-    margin: 10px auto;
+    margin: 12px auto;
 }
 
 #itens-concluidos {
     display: none;
 }
+
