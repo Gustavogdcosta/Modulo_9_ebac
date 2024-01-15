@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(226, 223, 223);
+}
+
+header {
+    margin-top: 25px;
+}
+
+header button{
+    padding: 25px;
+    font-size: 20px;
+    margin: 20px 15px 20px 0;
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(71, 163, 71);
+}
+
+#finished-button{
+    background-color: rgb(180, 184, 144);
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 87, 87);
+}
+
+#finished-button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 87, 87);
+}
+
+form{
+    display: none;
+}
+
+input {
+    padding: 12px;
+    width: 800px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    border: 3px solid white;
+    background-color: rgb(71, 163, 71);
+}
+
+form button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 87, 87);
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.finished-list li {
+    text-decoration: line-through;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+
+h2 {
+    margin: 10px auto;
+}
+
+#itens-concluidos {
+    display: none;
+}
